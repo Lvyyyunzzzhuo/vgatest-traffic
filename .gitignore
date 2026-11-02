@@ -17,6 +17,10 @@
 **/*.sim/
 **/xsim.dir/
 **/build/
+!vgatest/build/
+!vgatest/build/README.md
+!vgatest/build/*.tcl
+!vgatest/build/*.bit
 **/build_*/
 **/debug/
 **/release/
