@@ -1,0 +1,17 @@
+build/
+build_*/
+debug/
+release/
+release_*/
+.qtcreator/
+.qmake.stash
+*.pro.user
+Makefile
+Makefile.*
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.o
+*.obj
+*.exe
+*.dll

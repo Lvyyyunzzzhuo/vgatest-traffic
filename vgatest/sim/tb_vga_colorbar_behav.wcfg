@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_vga_colorbar_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_vga_colorbar" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="13459931602000fs"></ZoomStartTime>
+      <ZoomEndTime time="13460172802001fs"></ZoomEndTime>
+      <Cursor1Time time="13460132602000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="170"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="48" />
+   <wvobject fp_name="/tb_vga_colorbar/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/hsync" type="logic">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vsync" type="logic">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/vga_clk" type="logic">
+      <obj_property name="ElementShortName">vga_clk</obj_property>
+      <obj_property name="ObjectShortName">vga_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/pix_x" type="array">
+      <obj_property name="ElementShortName">pix_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_x[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/pix_y" type="array">
+      <obj_property name="ElementShortName">pix_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_y[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/pix_data" type="array">
+      <obj_property name="ElementShortName">pix_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/H_VALID" type="array">
+      <obj_property name="ElementShortName">H_VALID[9:0]</obj_property>
+      <obj_property name="ObjectShortName">H_VALID[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/V_VALID" type="array">
+      <obj_property name="ElementShortName">V_VALID[9:0]</obj_property>
+      <obj_property name="ObjectShortName">V_VALID[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/RED" type="array">
+      <obj_property name="ElementShortName">RED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/ORANGE" type="array">
+      <obj_property name="ElementShortName">ORANGE[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ORANGE[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/YELLO" type="array">
+      <obj_property name="ElementShortName">YELLO[15:0]</obj_property>
+      <obj_property name="ObjectShortName">YELLO[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/GREEN" type="array">
+      <obj_property name="ElementShortName">GREEN[15:0]</obj_property>
+      <obj_property name="ObjectShortName">GREEN[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/CYAN" type="array">
+      <obj_property name="ElementShortName">CYAN[15:0]</obj_property>
+      <obj_property name="ObjectShortName">CYAN[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/BLUE" type="array">
+      <obj_property name="ElementShortName">BLUE[15:0]</obj_property>
+      <obj_property name="ObjectShortName">BLUE[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/PURPPLE" type="array">
+      <obj_property name="ElementShortName">PURPPLE[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PURPPLE[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/BLACK" type="array">
+      <obj_property name="ElementShortName">BLACK[15:0]</obj_property>
+      <obj_property name="ObjectShortName">BLACK[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/WHITE" type="array">
+      <obj_property name="ElementShortName">WHITE[15:0]</obj_property>
+      <obj_property name="ObjectShortName">WHITE[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_pic_inst/GRAY" type="array">
+      <obj_property name="ElementShortName">GRAY[15:0]</obj_property>
+      <obj_property name="ObjectShortName">GRAY[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/hsync" type="logic">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vsync" type="logic">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_clk" type="logic">
+      <obj_property name="ElementShortName">vga_clk</obj_property>
+      <obj_property name="ObjectShortName">vga_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/pix_x" type="array">
+      <obj_property name="ElementShortName">pix_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_x[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/pix_y" type="array">
+      <obj_property name="ElementShortName">pix_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_y[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/pix_data" type="array">
+      <obj_property name="ElementShortName">pix_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/hsync" type="logic">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/hsync" type="logic">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vsync" type="logic">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_r" type="array">
+      <obj_property name="ElementShortName">vga_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vga_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_g" type="array">
+      <obj_property name="ElementShortName">vga_g[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vga_g[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_b" type="array">
+      <obj_property name="ElementShortName">vga_b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vga_b[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_clk" type="logic">
+      <obj_property name="ElementShortName">vga_clk</obj_property>
+      <obj_property name="ObjectShortName">vga_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/pix_x" type="array">
+      <obj_property name="ElementShortName">pix_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_x[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/pix_y" type="array">
+      <obj_property name="ElementShortName">pix_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_y[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/pix_data" type="array">
+      <obj_property name="ElementShortName">pix_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_vga_colorbar/vga_colorbar_inst/vga_rgb_int" type="array">
+      <obj_property name="ElementShortName">vga_rgb_int[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vga_rgb_int[15:0]</obj_property>
+   </wvobject>
+</wave_config>
